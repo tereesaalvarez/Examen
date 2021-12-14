@@ -111,3 +111,25 @@ while True:
             movimiento(x, 0)
             x = cambio(x, 0)
             encerradaa = encerrada(a, 0)
+        elif encerraday == False and encerradab == False:
+            movimiento(y, 1)
+            y = cambio(y, 1)
+            encerradab = encerrada(b, 1)
+        elif encerradaz == False and encerradac == False:
+            movimiento(z, 2)
+            z = cambio(z, 2)
+            encerradac = encerrada(c, 2)
+        elif encerradax == False:
+            movimiento(x, 0)
+            x = cambio(x, 0)
+            encerradaa = encerrada(a, 0)
+        elif encerraday == False:
+            movimiento(y, 1)
+            y = cambio(y, 1)
+            encerradab = encerrada(b, 1)
+        elif encerradaz == False:
+            movimiento(z, 2)
+            z = cambio(z, 2)
+            encerradac = encerrada(c, 2)
+        
+
