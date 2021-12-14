@@ -101,6 +101,8 @@ if encerradax == True and encerraday == True and encerradaz == True:
 elif encerradaa == True and encerradab == True and encerradac == True:
         print("El jugador negro no se puede mover, volvemos a crear el tablero")
         pass
+else:
+    breakpoint
 
 
 turno = randint(0, 1)
@@ -163,4 +165,6 @@ while True:
         else:
             break
         turno = 1
+    enseñartablero(tablero)
+
 
