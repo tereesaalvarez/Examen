@@ -67,3 +67,11 @@ z = randint(0,2)
 a = randint(0,2)
 b = randint(0,2)
 c = randint(0,2)
+
+while x == a:
+    a = randint(0,2)
+while y == b:
+    b = randint(0,2)
+while z == c:
+    c = randint(0,2)
+
