@@ -75,3 +75,11 @@ while y == b:
 while z == c:
     c = randint(0,2)
 
+(tablero[x])[0] = "♜"
+(tablero[y])[1] = "♜"
+(tablero[z])[2] = "♜"
+(tablero[a])[0] = "♖"
+(tablero[b])[1] = "♖"
+(tablero[c])[2] = "♖"
+
+print(tablero)
