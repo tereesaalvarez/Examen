@@ -94,14 +94,14 @@ encerradaa = encerrada(a, 0)
 encerradab = encerrada(b, 1)
 encerradac = encerrada(c, 2)
 
+
 if encerradax == True and encerraday == True and encerradaz == True:
         print("El jugador blanco no se puede mover, volvemos a crear el tablero")
         pass
 elif encerradaa == True and encerradab == True and encerradac == True:
         print("El jugador negro no se puede mover, volvemos a crear el tablero")
         pass
-else:
-    break
+
 
 turno = randint(0, 1)
 
