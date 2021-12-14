@@ -131,5 +131,8 @@ while True:
             movimiento(z, 2)
             z = cambio(z, 2)
             encerradac = encerrada(c, 2)
-        
+        else:
+            break
+        turno = 0
+    
 
