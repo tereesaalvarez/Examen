@@ -105,4 +105,9 @@ else:
 
 turno = randint(0, 1)
 
-
+while True:
+    if turno == 1:
+        if encerradax == False and encerradaa == False:
+            movimiento(x, 0)
+            x = cambio(x, 0)
+            encerradaa = encerrada(a, 0)
