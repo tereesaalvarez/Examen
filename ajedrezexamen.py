@@ -135,4 +135,32 @@ while True:
             break
         turno = 0
     
+    elif turno == 0:
+        if encerradaa == False and encerradax == False:
+            movimiento(a, 0)
+            a = cambio(a, 0)
+            encerradax = encerrada(x, 0)
+        elif encerradab == False and encerraday == False:
+            movimiento(b, 1)
+            b = cambio(b, 1)
+            encerraday = encerrada(y, 1)
+        elif encerradac == False and encerradaz == False:
+            movimiento(c, 2)
+            c = cambio(c, 2)
+            encerradaz = encerrada(z, 2)
+        elif encerradaa == False:
+            movimiento(a, 0)
+            a = cambio(a, 0)
+            encerradax = encerrada(x, 0)
+        elif encerradab == False:
+            movimiento(b, 1)
+            b = cambio(b, 1)
+            encerraday = encerrada(y, 1)
+        elif encerradac == False:
+            movimiento(c, 2)
+            c = cambio(c, 2)
+            encerradac = encerrada(z, 2)
+        else:
+            break
+        turno = 1
 
