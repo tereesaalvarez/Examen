@@ -167,4 +167,8 @@ while True:
         turno = 1
     enseñartablero(tablero)
 
-
+enseñartablero(tablero)
+if encerradax == True and encerraday == True and encerradaz == True:
+    print("Gana el jugador negro ya que el blanco no se puede mover")
+elif encerradaa == True and encerradab == True and encerradac == True:
+    print("Gana el jugador blanco ya que el negro no se puede mover")
