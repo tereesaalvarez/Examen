@@ -3,6 +3,7 @@ import os
 import random
 import re
 import sys
+from random import randint
 
 def tablerocerrado (fila, columna):
     if fila ==0 and tablero [fila+1][columna] != '':
@@ -59,3 +60,10 @@ tablero= [
     [' ',' ',' '],
     [' ',' ',' '],
 ]
+
+x = randint(0,2)
+y = randint(0,2)
+z = randint(0,2)
+a = randint(0,2)
+b = randint(0,2)
+c = randint(0,2)
