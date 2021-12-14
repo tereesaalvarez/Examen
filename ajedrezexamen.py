@@ -86,3 +86,12 @@ while z == c:
 (tablero[c])[2] = "♖"
 
 print(tablero)
+
+encerradax = encerrada(x, 0)
+encerraday = encerrada(y, 1)
+encerradaz = encerrada(z, 2)
+encerradaa = encerrada(a, 0)
+encerradab = encerrada(b, 1)
+encerradac = encerrada(c, 2)
+
+
