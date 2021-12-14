@@ -4,7 +4,7 @@ import random
 import re
 import sys
 
-def tablerocerrado (fila, columna):
+def tablerocerrado (fila, columna, tablero):
     if fila ==0 and tablero [fila+1][columna] != '':
         fallo= True
 
@@ -20,3 +20,8 @@ def tablerocerrado (fila, columna):
         fallo = True
     return fallo
 
+def enseñartablero (tablero):
+    contador = 0
+    for tablero[contador] in tablero:
+        print(tablero[contador])
+    
