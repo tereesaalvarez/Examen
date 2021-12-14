@@ -52,3 +52,10 @@ def cambio(fila, columna):
         fila -= 1
     return fila
 
+#creacion del tablero
+
+tablero= [
+    [' ',' ',' '],
+    [' ',' ',' '],
+    [' ',' ',' '],
+]
