@@ -5,7 +5,7 @@ import re
 import sys
 from random import randint
 
-def tablerocerrado (fila, columna):
+def encerrada (fila, columna):
     if fila ==0 and tablero [fila+1][columna] != '':
         fallo= True
 
@@ -25,6 +25,7 @@ def enseñartablero (tablero):
     contador = 0
     for tablero[contador] in tablero:
         print(tablero[contador])
+    print("\n")
 
 def movimiento(fila, columna):
     while fila == 1:
@@ -57,7 +58,9 @@ def cambio(fila, columna):
 
 tablero= [
     [' ',' ',' '],
+
     [' ',' ',' '],
+
     [' ',' ',' '],
 ]
 
