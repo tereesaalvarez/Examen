@@ -3,9 +3,9 @@
 El enlace de github de nuestro repositorio para el examen es el siguiente: 
 El examen consta de dos partes con dos tareas diferentes
 
-# Parte 1
+# Parte 1. The Minion Game
 
-# Parte 2
+# Parte 2. El ajedrez de tres casillas
 Esta parte del examen consta de hacer un ajedrez nuevo en el que se juega con tres casillas y la ficha de la torre.  Es un juego que se juega entre
 dos jugadores que realizan movimientos por turnos hasta que uno de ellos no puede realizar ningún movimiento. El jugador que no puede hacer un movimiento pierde el juego y el otro jugador es declarado ganador.
 
