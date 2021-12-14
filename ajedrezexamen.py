@@ -136,7 +136,7 @@ while True:
         else:
             break
         turno = 0
-    
+
     elif turno == 0:
         if encerradaa == False and encerradax == False:
             movimiento(a, 0)
