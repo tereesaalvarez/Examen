@@ -5,6 +5,23 @@ El examen consta de dos partes con dos tareas diferentes
 
 # Parte 1. The Minion Game
 
+        String = "BANANA"
+        print(String[:])
+        print(String[1 : ])
+        print(String[2 : ])
+        print(String[3 : ])
+        print(String[4 : ])
+        print(String[5 : ])
+        print(String[ : 6])
+        print(String[ : 5])
+        print(String[ : 4])
+        print(String[ : 3])
+        print(String[ : 2])
+        print(String[ : 1])
+        print(String[2 : 7])
+        print(String[4 : -1])
+        print(String[-6 : -1])
+
 # Parte 2. El ajedrez de tres casillas
 Esta parte del examen consta de hacer un ajedrez nuevo en el que se juega con tres casillas y la ficha de la torre.  Es un juego que se juega entre
 dos jugadores que realizan movimientos por turnos hasta que uno de ellos no puede realizar ningún movimiento. El jugador que no puede hacer un movimiento pierde el juego y el otro jugador es declarado ganador.
