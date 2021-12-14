@@ -1,6 +1,6 @@
 # Examen
 
-El enlace de github de nuestro repositorio para el examen es el siguiente: 
+El enlace de github de nuestro repositorio para el examen es el siguiente:  https://github.com/tereesaalvarez/Examen.git
 El examen consta de dos partes con dos tareas diferentes
 
 # Parte 1. The Minion Game
